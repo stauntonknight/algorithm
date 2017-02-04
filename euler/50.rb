@@ -1,4 +1,4 @@
-primes = Array.new(1000001, false)
+primes = Array.new(1000001, true)
 primes [2] = true
 primes[3] = true
 i = 2;
