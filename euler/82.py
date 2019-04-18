@@ -17,7 +17,6 @@ def is_valid(x, y, dx, dy):
     return True
 
 dp = []
-ans = -1
 for i in range(0, max_row):
     a = []
     for j in range(0, max_col):
