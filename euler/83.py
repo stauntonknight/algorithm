@@ -31,7 +31,6 @@ prev_ans = sys.maxsize
 ans = -1
 
 while ans != prev_ans:
-    print(ans, prev_ans)
     prev_ans = ans
     for j in reversed(range(max_col)):
         for i in reversed(range(max_row)):
