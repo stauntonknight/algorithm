@@ -29,8 +29,6 @@ for i in range(1, num):
     x = fill(i)
     if (x == State.EIGHTY_NINE):
         kount = kount + 1
-    else:
-        print(i)
 print(kount)
 
 
