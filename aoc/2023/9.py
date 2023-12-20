@@ -1,3 +1,4 @@
+
 with open("9.in") as f:
     l = f.readlines()
     total = 0
@@ -9,7 +10,6 @@ with open("9.in") as f:
         curr = -1
         while not val:
             l1 = [i - j for i, j in zip(line_int[1:], line_int[:-1])]
-            print(l1)
             if not l1:
                 val = True
                 continue
